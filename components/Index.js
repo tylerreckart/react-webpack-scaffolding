@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Index = React.createClass ({
+const Index = React.createClass({
 
   render() {
     return (
