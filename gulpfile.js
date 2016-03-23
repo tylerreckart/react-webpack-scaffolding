@@ -90,11 +90,11 @@ gulp.task("webpack:dev", function(callback) {
 gulp.task("webpack:build", function(callback) {
   var prodConfig = Object.create(webpackConfig);
   prodConfig.plugins = prodConfig.plugins.concat(
-    new webpack.DefinePlugin({
-      "process.env": {
-        "NODE_ENV": JSON.Stringify("production")
-      }
-    }),
+    // new webpack.DefinePlugin({
+    //   "process.env": {
+    //     "NODE_ENV": JSON.Stringify("production")
+    //   }
+    // }),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compress: {

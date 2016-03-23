@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, IndexLink, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import Root from './components/Root'
 import Index from './components/Index'
@@ -11,7 +11,7 @@ import Index from './components/Index'
 render((
   <Router history={browserHistory}>
     <Route path="/" component={Root}>
-      <IndexLink component={Index} />
+      <IndexRoute component={Index} />
     </Route>
   </Router>
-), document.getElementById('application'))
+), document.body)
