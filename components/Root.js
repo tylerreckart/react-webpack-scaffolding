@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Root = React.createClass ({
 
@@ -9,11 +9,11 @@ const Root = React.createClass ({
   render() {
     return (
       <div>
-        <h1>Hello, World</h1>
+        {this.props.children}
       </div>
     );
   }
 
 })
 
-export default Root;
+export default Root
