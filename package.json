@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-scaffolding",
+  "version": "0.0.1",
+  "description": "A simple scaffolding system for React applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerreckart/react-webpack-scaffolding.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Babel",
+    "ES6"
+  ],
+  "author": "Tyler Reckart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerreckart/react-webpack-scaffolding/issues"
+  },
+  "homepage": "https://github.com/tylerreckart/react-webpack-scaffolding#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0"
+  }
+}
